@@ -1,0 +1,11 @@
+nav {
+  background-color: chartreuse;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  font-size: 2rem;
+  color: blueviolet;
+}
+nav a {
+  text-decoration: none;
+}
