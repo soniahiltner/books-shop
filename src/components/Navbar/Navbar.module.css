@@ -5,6 +5,9 @@ nav {
   width: 100vw;
   font-size: 2rem;
   color: blueviolet;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
 }
 nav a {
   text-decoration: none;

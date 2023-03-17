@@ -1,9 +1,9 @@
-
+import styles from './Home.module.css'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className={styles.home}>
+      <h1>THE TOP 100 BEST MOVIES EVER MADE</h1>
     </div>
   );
 }

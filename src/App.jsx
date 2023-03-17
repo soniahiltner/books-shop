@@ -2,6 +2,7 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
+import { MoviesProvider } from './context/MoviesContext';
 import Favourites from './pages/Favourites/Favourites';
 import Home from './pages/Home/Home';
 import Movie from './pages/Movie/Movie';
@@ -12,7 +13,8 @@ import ToWatch from './pages/ToWatch/ToWatch';
 function App() {
 
   return (
-    <div className='app'>
+    <MoviesProvider>
+      <div className='app'>
       <Navbar />
     <div className="container">
       <Routes>
@@ -24,6 +26,8 @@ function App() {
       </Routes>
     </div>
     </div>
+    </MoviesProvider>
+    
     
   );
 }
