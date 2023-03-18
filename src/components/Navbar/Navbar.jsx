@@ -3,12 +3,17 @@ import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <nav>
+    <div className="navbar">
+      <nav>
       <Link to={"/"}>Home</Link>
-      <Link to={"/movielist"}>Movies</Link>
-      <Link to={"/favourites"}>Favourites</Link>
-      <Link to={"/towatch"}>To Watch</Link>
-    </nav>
+      <Link to={"/store"}>Store</Link>
+      <Link to={"/wishlist"}>Wish List</Link>
+      </nav>
+      <span>
+        <Link to={"/shoppingcart"}>🛒</Link>
+      </span>
+    </div>
+    
   );
 }
 

@@ -2,31 +2,31 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
-import { MoviesProvider } from './context/MoviesContext';
-import Favourites from './pages/Favourites/Favourites';
+import { BooksProvider } from './context/BooksContext';
+import Book from './pages/Book/Book';
 import Home from './pages/Home/Home';
-import Movie from './pages/Movie/Movie';
-import MovieList from './pages/MovieList/MovieList';
-import ToWatch from './pages/ToWatch/ToWatch';
+import ShoppingCart from './pages/ShoppingCart/ShoppingCart';
+import Store from './pages/Store/Store';
+import WishList from './pages/WishList/WishList';
 
 
 function App() {
 
   return (
-    <MoviesProvider>
+    <BooksProvider>
       <div className='app'>
       <Navbar />
     <div className="container">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/movielist" element={<MovieList />} />
-        <Route path="/favourites" element={<Favourites />} />
-        <Route path="/towatch" element={<ToWatch />} />
-        <Route path="/movie" element={<Movie />} />
+        <Route path="/store" element={<Store />} />
+        <Route path="/wishlist" element={<WishList />} />
+        <Route path="/shoppingcart" element={<ShoppingCart />} />
+        <Route path="/book" element={<Book />} />
       </Routes>
     </div>
     </div>
-    </MoviesProvider>
+    </BooksProvider>
     
     
   );
