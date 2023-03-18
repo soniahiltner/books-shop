@@ -1,14 +1,28 @@
-nav {
-  background-color: chartreuse;
+.navbar {
   display: flex;
-  justify-content: space-evenly;
-  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: chartreuse;
   font-size: 2rem;
   color: blueviolet;
   padding: 1rem;
-  position: sticky;
-  top: 0;
+ 
+}
+
+nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-around; 
 }
 nav a {
   text-decoration: none;
+}
+.cartLink {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
 }

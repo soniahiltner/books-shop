@@ -1,12 +1,13 @@
 
 import StoreItems from '../../components/StoreItems/StoreItems';
 import { useBooks } from '../../context/BooksContext';
+import styles from './Store.module.css'
 
 const Store = () => {
 
   const { books } = useBooks();
   return (
-    <div>
+    <div className={styles.store}>
       <StoreItems />
     </div>
   );

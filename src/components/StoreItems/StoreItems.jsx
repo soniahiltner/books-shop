@@ -7,11 +7,11 @@ const StoreItems = () => {
   return (
     <div className={styles.storeItems}>
       {books.map((item) => (
-        <div className={styles.itemcard} key={item.id}>
-          <div className="imageContainer">
+        <div className={styles.itemCard} key={item.id}>
+          <div className={styles.imageContainer}>
             <img src={item.img} alt={item.title} />
           </div>
-          <div className="itemInfo">
+          <div className={styles.itemInfo}>
             <h2>{item.title}</h2>
             <h4>
               {item.author} - {item.year}
