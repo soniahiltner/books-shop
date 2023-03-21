@@ -1,6 +1,6 @@
 .app {
   width: 100%;
-  
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .container {
   overflow-x: hidden;

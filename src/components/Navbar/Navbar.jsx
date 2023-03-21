@@ -5,15 +5,14 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <nav>
-      <Link to={"/"}>Home</Link>
-      <Link to={"/store"}>Store</Link>
-      <Link to={"/wishlist"}>Wish List</Link>
+        <Link to={"/"}>Inicio</Link>
+        <Link to={"/store"}>Tienda</Link>
+        <Link to={"/wishlist"}>Lista de deseos</Link>
       </nav>
-      <div className={ styles.cartLink}>
-        <Link to={"/shoppingcart"} >🛒</Link>
+      <div className={styles.cartLink}>
+        <Link to={"/shoppingcart"}>🛒</Link>
       </div>
     </div>
-    
   );
 }
 

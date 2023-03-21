@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom";
 import { useBooks } from "../../context/BooksContext";
 import styles from'./StoreItems.module.css'
 
@@ -12,11 +14,21 @@ const StoreItems = () => {
             <img src={item.img} alt={item.title} />
           </div>
           <div className={styles.itemInfo}>
-            <h2>{item.title}</h2>
-            <h4>
-              {item.author} - {item.year}
-            </h4>
-            <h4>Género: {item.category} </h4>
+            <section className={styles.headInfo}>
+              <h2>{item.title}</h2>
+              <h4>
+                {item.author} - {item.year}
+              </h4>
+            </section>
+
+            <Link to={`/store/${item.id}` } className={styles.moreInfo}>
+              Más información
+            </Link>
+
+            <button className={styles.addToWishList}>
+              Añadir a lista de deseos
+            </button>
+            <button className={styles.addToCart}>Añadir al carrito</button>
           </div>
         </div>
       ))}

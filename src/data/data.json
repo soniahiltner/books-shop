@@ -8,7 +8,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Asesinos sin rostro.jpg"
+    "img": "/Images/Asesinos sin rostro.jpg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Los perros de Riga.jpg"
+    "img": "/Images/Los perros de Riga.jpg"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/La leona blanca.jpg"
+    "img": "/Images/La leona blanca.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El hombre sonriente.jpg"
+    "img": "/Images/El hombre sonriente.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/La falsa pista.jpg"
+    "img": "/Images/La falsa pista.jpg"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El perro que corría hacia una estrella.jpg"
+    "img": "/Images/El perro que corría hacia una estrella.jpg"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "category": "Narrativa",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Comedia infantil.jpg"
+    "img": "/Images/Comedia infantil.jpg"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "category": "Juvenil",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Las sombras crecen al atardecer.jpg"
+    "img": "/Images/Las sombras crecen al atardecer.jpg"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/La quinta mujer.jpg"
+    "img": "/Images/La quinta mujer.jpg"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Pisando los talones.jpg"
+    "img": "/Images/Pisando los talones.jpg"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "category": "Juvenil",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El niño que dormía con nieve en la cama.jpg"
+    "img": "/Images/El niño que dormía con nieve en la cama.jpg"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "category": "Juvenil",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Viaje al fin del mundo.jpg"
+    "img": "/Images/Viaje al fin del mundo.jpg"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Cortafuegos.jpg"
+    "img": "/Images/Cortafuegos.jpg"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/La pirámide.jpg"
+    "img": "/Images/La pirámide.jpg"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El retorno del profesor de baile.jpg"
+    "img": "/Images/El retorno del profesor de baile.jpg"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Antes de que hiele.jpg"
+    "img": "/Images/Antes de que hiele.jpg"
   },
   {
     "id": 17,
@@ -184,7 +184,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El cerebro de Kennedy.jpg"
+    "img": "/Images/El cerebro de Kennedy.jpg"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
     "category": "Juvenil",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Jugar con fuego.jpg"
+    "img": "/Images/Jugar con fuego.jpg"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
     "category": "Narrativa",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El secreto del fuego.jpg"
+    "img": "/Images/El secreto del fuego.jpg"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
     "category": "Narrativa",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Profundidades.jpg"
+    "img": "/Images/Profundidades.jpg"
   },
   {
     "id": 21,
@@ -228,7 +228,7 @@
     "category": "Narrativa",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Zapatos italianos.jpg"
+    "img": "/Images/Zapatos italianos.jpg"
   },
   {
     "id": 22,
@@ -239,7 +239,7 @@
     "category": "Personal",
     "price": 10,
     "quantity": 1,
-    "img": "Images/Moriré, pero mi memoria sobrevivirá.jpg"
+    "img": "/Images/Moriré, pero mi memoria sobrevivirá.jpg"
   },
   {
     "id": 23,
@@ -250,7 +250,7 @@
     "category": "Juvenil",
     "price": 10,
     "quantity": 1,
-    "img": "Images/La ira del fuego.jpg"
+    "img": "/Images/La ira del fuego.jpg"
   },
   {
     "id": 24,
@@ -261,7 +261,7 @@
     "category": "Juvenil",
     "price": 10,
     "quantity": 1,
-    "img": "Images/La ira del fuego.jpg"
+    "img": "/Images/El gato al que le gustaba la lluvia.jpg"
   },
   {
     "id": 25,
@@ -272,7 +272,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El chino.jpg"
+    "img": "/Images/El chino.jpg"
   },
   {
     "id": 26,
@@ -283,7 +283,7 @@
     "category": "Narrativa",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El hijo del viento.jpg"
+    "img": "/Images/El hijo del viento.jpg"
   },
   {
     "id": 27,
@@ -294,7 +294,7 @@
     "category": "Policíaca",
     "price": 10,
     "quantity": 1,
-    "img": "Images/El hombre inquieto.jpg"
+    "img": "/Images/El hombre inquieto.jpg"
   },
   {
     "id": 28,
@@ -305,7 +305,7 @@
     "category": "Policíaca",
     "price": 20,
     "quantity": 1,
-    "img": "Images/El ojo del leopardo.jpg"
+    "img": "/Images/El ojo del leopardo.jpg"
   },
   {
     "id": 29,
@@ -316,7 +316,7 @@
     "category": "Narrativa",
     "price": 30,
     "quantity": 1,
-    "img": "Images/Tea-bag.jpg"
+    "img": "/Images/Tea-bag.jpg"
   },
   {
     "id": 30,
@@ -327,7 +327,7 @@
     "category": "Narrativa",
     "price": 40,
     "quantity": 1,
-    "img": "Images/Daisy sisters.jpg"
+    "img": "/Images/Daisy sisters.jpg"
   },
   {
     "id": 31,
@@ -338,7 +338,7 @@
     "category": "Narrativa",
     "price": 20,
     "quantity": 1,
-    "img": "Images/Un ángel impuro.jpg"
+    "img": "/Images/Un ángel impuro.jpg"
   },
   {
     "id": 32,
@@ -349,7 +349,7 @@
     "category": "Policíaca",
     "price": 32,
     "quantity": 1,
-    "img": "Images/Huesos en el jardin.jpg"
+    "img": "/Images/Huesos en el jardin.jpg"
   },
   {
     "id": 33,
@@ -360,7 +360,7 @@
     "category": "Memorias",
     "price": 21,
     "quantity": 1,
-    "img": "Images/Arenas movedizas.jpg"
+    "img": "/Images/Arenas movedizas.jpg"
   },
   {
     "id": 34,
@@ -371,7 +371,7 @@
     "category": "Narrativa",
     "price": 20,
     "quantity": 1,
-    "img": "Images/Botas de lluvia suecas.jpg"
+    "img": "/Images/Botas de lluvia suecas.jpg"
   },
   {
     "id": 35,
@@ -382,6 +382,6 @@
     "category": "Narrativa",
     "price": 62,
     "quantity": 1,
-    "img": "Images/El hombre de la dinamita.jpg"
+    "img": "/Images/El hombre de la dinamita.jpg"
   }
 ]

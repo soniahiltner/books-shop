@@ -1,0 +1,9 @@
+.book {
+  background: linear-gradient(lightblue, 75%, rgb(93, 204, 18));
+  width: 100%;
+  min-height: 92vh;
+}
+.image {
+  width: 20rem;
+  height: 25rem;
+}
