@@ -3,7 +3,54 @@
   width: 100%;
   min-height: 92vh;
 }
+
+.bookContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .image {
-  width: 20rem;
-  height: 25rem;
+  max-width: 100%;
+}
+
+.bookInfo {
+  padding-top: 1rem;
+  text-align: center;
+}
+.bookInfo>h2,p,h3 {
+  padding-bottom: .5rem;
+}
+
+.addToWishList,
+.addToCart {
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+  background-color: rgba(128, 0, 0, 0.563);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width:768px) {
+  .bookContainer {
+    padding: 3rem;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .bookContainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 8rem;
+  }
+  .bookInfo {
+    text-align: left;
+    padding: 0 1rem;
+  }
 }

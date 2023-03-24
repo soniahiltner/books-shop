@@ -5,7 +5,15 @@ import styles from'./StoreItems.module.css'
 
 const StoreItems = () => {
 
-  const { books } = useBooks();
+  const {
+    books,
+    addToCart,
+    removeFromCart,
+    toggleCartItem,
+    addToWishlist,
+    removeFromWishList,
+    toggleWishListItem,
+  } = useBooks();
   return (
     <div className={styles.storeItems}>
       {books.map((item) => (
@@ -19,16 +27,25 @@ const StoreItems = () => {
               <h4>
                 {item.author} - {item.year}
               </h4>
+              <h4>Precio: {item.price}€</h4>
             </section>
 
-            <Link to={`/store/${item.id}` } className={styles.moreInfo}>
+            <Link to={`/store/${item.id}`} className={styles.moreInfo}>
               Más información
             </Link>
 
-            <button className={styles.addToWishList}>
-              Añadir a lista de deseos
+            <button
+              className={styles.addToWishList}
+              onClick={() => toggleWishListItem(item)}
+            >
+              Añadir a la lista de deseos
             </button>
-            <button className={styles.addToCart}>Añadir al carrito</button>
+            <button
+              className={styles.addToCart}
+              onClick={() => toggleCartItem(item)}
+            >
+              Añadir al carrito
+            </button>
           </div>
         </div>
       ))}
