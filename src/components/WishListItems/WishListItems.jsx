@@ -26,9 +26,9 @@ const WishListItems = () => {
             <Link to={`/store/${item.id}`} className={styles.moreInfo}>
               Más información
             </Link>
-
-            <CartButton item={item} />
+            
             <WishListButton item={item} />
+            <CartButton item={item} />
           </div>
         </div>
       ))}

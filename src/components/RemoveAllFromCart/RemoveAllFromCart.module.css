@@ -1,0 +1,15 @@
+.removeAll {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.removeFromCart {
+  background-color: rgba(0, 255, 17, 0.603);
+  padding: 0.4rem;
+  margin: 0 1rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 1px 1px 4px rgb(54, 110, 30);
+  font-size: 1.1rem;
+  cursor: pointer;
+}

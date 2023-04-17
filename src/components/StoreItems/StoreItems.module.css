@@ -2,12 +2,9 @@
   display: grid;
   grid-template-columns: 1fr;
   padding: 2rem 0;
- 
-  
 }
 
 .itemCard {
-  /* display: flex; */
   display: grid;
   grid-template-columns: 40% 60%;
   max-width: 40rem;
@@ -23,7 +20,6 @@
 }
 .imageContainer img {
   max-width: 100%;
-  /* width: 100%; */
   height: 100%;
   object-fit: cover;
 }
@@ -33,13 +29,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* flex-shrink: 1; */
-}
-
-.moreInfoContainer {
-  height: 2rem;
-  padding: 0.5rem;
-  margin: 1rem;
 }
 
 .moreInfo {
@@ -52,24 +41,6 @@
   font-size: 1.2rem;
   padding: 0.1rem;
   border-radius: 0.3rem;
-  cursor: pointer;
-}
-
-.addToWishList,
-.addToCart {
-  padding: 0.3rem;
-  border-radius: 0.4rem;
-  background-color: rgba(128, 0, 0, 0.563);
-  color: white;
-  
-  cursor: pointer;
-}
-
-.remove {
-  padding: 0.3rem;
-  border-radius: 0.4rem;
-  background-color: rgba(192, 44, 44, 0.973);
-  color: white;
   cursor: pointer;
 }
 

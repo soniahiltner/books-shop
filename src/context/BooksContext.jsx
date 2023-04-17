@@ -40,6 +40,11 @@ export const BooksProvider = ({ children }) => {
     setCart(cart.filter((item) => item.id != productToDelete.id));
   };
 
+  //Remove all from cart
+  const removeAllFromCart = () => {
+    setCart([])
+  }
+
   //ToggleCartItem
   const toggleCartItem = (product) => {
     let productToDelete = cart.find((item) => item.id === product.id);
@@ -90,7 +95,7 @@ export const BooksProvider = ({ children }) => {
         addToWishlist,
         removeFromWishList,
         toggleWishListItem,
-     
+        removeAllFromCart
       }}
     >
       {children}
