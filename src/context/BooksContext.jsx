@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 
 
@@ -10,14 +11,22 @@ export const useBooks = () => {
 
 export const BooksProvider = ({ children }) => {
   const [books, setBooks] = useState([]);
-  const [cart, setCart] = useState([]);
-  const [wishList, setWishList] = useState([]);
+  const [cart, setCart] = useLocalStorage('shoppingCart', []);
+  const [wishList, setWishList] = useLocalStorage('wishList', []);
+  /* const [colorBtn, setColorBtn] = useLocalStorage('colorBtn',[])
+  const [cartTextBtn, setCartTextBtn] = useLocalStorage('cartTextBtn',[])
+  const [wishListTextBtn, setWishListTextBtn] = useLocalStorage('wishListTextBtn', []) */
 
   useEffect(() => {
     fetch("src/data/data.json")
       .then((res) => res.json())
       .then(data => setBooks(data))
   }, []);
+
+  //Toggle class btn
+  const toggleColorBtn = () => {
+
+  }
 
   //Add/remove from cart
   const addToCart = (product) => {
@@ -36,8 +45,10 @@ export const BooksProvider = ({ children }) => {
     let productToDelete = cart.find((item) => item.id === product.id);
     if (productToDelete) {
       setCart(cart.filter((item) => item.id != productToDelete.id));
+      
     } else {
       setCart([...cart, product]);
+    
     }
   };
 
@@ -79,6 +90,7 @@ export const BooksProvider = ({ children }) => {
         addToWishlist,
         removeFromWishList,
         toggleWishListItem,
+     
       }}
     >
       {children}

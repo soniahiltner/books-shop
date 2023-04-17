@@ -1,9 +1,13 @@
-.storeItems {
+
+h1 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.shoppingCartItems {
   display: grid;
   grid-template-columns: 1fr;
   padding: 2rem 0;
- 
-  
 }
 
 .itemCard {
@@ -61,15 +65,6 @@
   border-radius: 0.4rem;
   background-color: rgba(128, 0, 0, 0.563);
   color: white;
-  
-  cursor: pointer;
-}
-
-.remove {
-  padding: 0.3rem;
-  border-radius: 0.4rem;
-  background-color: rgba(192, 44, 44, 0.973);
-  color: white;
   cursor: pointer;
 }
 
@@ -77,4 +72,5 @@
   .storeItems {
     grid-template-columns: 1fr 1fr;
   }
+  
 }

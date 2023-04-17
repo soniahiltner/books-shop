@@ -1,17 +1,15 @@
-
 import { Link } from "react-router-dom";
 import { useBooks } from "../../context/BooksContext";
 import CartButton from "../CartButton/CartButton";
 import WishListButton from "../WishListButton/WishListButton";
-import styles from'./StoreItems.module.css'
+import styles from "./WishListItems.module.css";
 
-const StoreItems = () => {
-
-  const { books } = useBooks();
+const WishListItems = () => {
+  const { wishList, removeFromWishList, toggleCartItem } = useBooks();
 
   return (
-    <div className={styles.storeItems}>
-      {books.map((item) => (
+    <div className={styles.wishListItems}>
+      {wishList.map((item) => (
         <div className={styles.itemCard} key={item.id}>
           <div className={styles.imageContainer}>
             <img src={item.img} alt={item.title} />
@@ -29,13 +27,13 @@ const StoreItems = () => {
               Más información
             </Link>
 
-            <WishListButton item={item} />
             <CartButton item={item} />
+            <WishListButton item={item} />
           </div>
         </div>
       ))}
     </div>
   );
-}
+};
 
-export default StoreItems
+export default WishListItems;

@@ -1,0 +1,6 @@
+.shoppingCart {
+  width: 100%;
+  min-height: 92vh;
+  /* background: linear-gradient(lightblue,75%,rgb(107, 232, 62)); */
+  background: linear-gradient(lightblue,75%,rgb(232, 226, 62));
+}

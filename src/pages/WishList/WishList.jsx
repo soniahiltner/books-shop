@@ -1,9 +1,11 @@
-import React from 'react'
+import WishListItems from '../../components/WishListItems/WishListItems';
+import styles from './WishList.module.css'
+
 
 const WishList = () => {
   return (
-    <div>
-      <h1>WishList</h1>
+    <div className={styles.wishList}>
+      <WishListItems />
     </div>
   );
 }

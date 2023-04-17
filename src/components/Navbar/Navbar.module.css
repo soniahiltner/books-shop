@@ -23,6 +23,15 @@ nav {
 nav a {
   text-decoration: none;
 }
+/* navbar nav a.active {
+  color: red;
+  text-decoration: wavy;
+} */
+
+/* nav a .active {
+  color: red;
+} */
+
 .cartLink {
   width: 20%;
   display: flex;
@@ -32,6 +41,7 @@ nav a {
 }
 .cartLink a {
   text-decoration: none;
+  border-radius: 50%;
 }
 
 @media (min-width:400px) {

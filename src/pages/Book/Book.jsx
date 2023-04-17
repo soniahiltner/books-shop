@@ -1,9 +1,11 @@
 import { useParams } from "react-router-dom";
+import CartButton from "../../components/CartButton/CartButton";
+import WishListButton from "../../components/WishListButton/WishListButton";
 import { useBooks } from "../../context/BooksContext";
 import styles from './Book.module.css'
 
 const Book = () => {
-  const { books } = useBooks();
+  const { books, toggleCartItem, toggleWishListItem } = useBooks();
   const { id  } = useParams();
 
   const bookId = parseInt(id);
@@ -21,11 +23,9 @@ const Book = () => {
           <p>{book?.synopsis}</p>
           <h3>Género: {book?.category}</h3>
           <h3>Precio: {book?.price}€</h3>
-          <button className={styles.addToWishList}>
-            Añadir a lista de deseos
-          </button>
+          <WishListButton item={book} />
           <br/>
-          <button className={styles.addToCart}>Añadir al carrito</button>
+          <CartButton item={book} />
         </div>
       </div>
     </div>
