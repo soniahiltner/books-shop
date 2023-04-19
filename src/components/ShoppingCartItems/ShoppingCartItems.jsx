@@ -1,13 +1,14 @@
 import { useBooks } from "../../context/BooksContext";
 import CartTotal from "../CartTotal/CartTotal";
+import Checkout from "../Checkout/Checkout";
 import Counter from "../Counter/Counter";
 import RemoveAllFromCart from "../RemoveAllFromCart/RemoveAllFromCart";
 import RemoveFromCartButton from "../RemoveFromCartButton/RemoveFromCartButton";
 import styles from "./ShoppingCartItems.module.css";
 
 const ShoppingCartItems = () => {
-  const { cart, removeFromCart } = useBooks();
-
+  const { cart } = useBooks();
+  console.log(cart)
   return (
     <div>
       {cart.length > 0 && (
@@ -37,7 +38,11 @@ const ShoppingCartItems = () => {
               </div>
             ))}
           </div>
-          <CartTotal />
+          <div className={styles.total}>
+            <CartTotal />
+            <Checkout />
+          </div>
+         
         </div>
       )}
       {cart.length === 0 && (

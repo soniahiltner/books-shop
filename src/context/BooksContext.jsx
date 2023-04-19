@@ -13,9 +13,7 @@ export const BooksProvider = ({ children }) => {
   const [books, setBooks] = useState([]);
   const [cart, setCart] = useLocalStorage('shoppingCart', []);
   const [wishList, setWishList] = useLocalStorage('wishList', []);
-  /* const [colorBtn, setColorBtn] = useLocalStorage('colorBtn',[])
-  const [cartTextBtn, setCartTextBtn] = useLocalStorage('cartTextBtn',[])
-  const [wishListTextBtn, setWishListTextBtn] = useLocalStorage('wishListTextBtn', []) */
+
 
   useEffect(() => {
     fetch("src/data/data.json")
@@ -23,10 +21,6 @@ export const BooksProvider = ({ children }) => {
       .then(data => setBooks(data))
   }, []);
 
-  //Toggle class btn
-  const toggleColorBtn = () => {
-
-  }
 
   //Add/remove from cart
   const addToCart = (product) => {

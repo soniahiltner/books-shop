@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "price_1MyaylCYi6cDvzBf2lh39wj7",
     "author": "Henning Mankell",
     "title": "Asesinos sin rostro",
     "year": "1991",
@@ -11,7 +11,7 @@
     "img": "/Images/Asesinos sin rostro.jpg"
   },
   {
-    "id": 2,
+    "id": "price_1Myb0KCYi6cDvzBfJUeywZAp",
     "author": "Henning Mankell",
     "title": "Los perros de Riga",
     "year": "1992",
@@ -22,7 +22,7 @@
     "img": "/Images/Los perros de Riga.jpg"
   },
   {
-    "id": 3,
+    "id": "price_1Myb1CCYi6cDvzBf0PyixiWN",
     "author": "Henning Mankell",
     "title": "La leona blanca",
     "year": "1993",
@@ -33,7 +33,7 @@
     "img": "/Images/La leona blanca.jpg"
   },
   {
-    "id": 4,
+    "id": "price_1Myb25CYi6cDvzBfsCUS43Se",
     "author": "Henning Mankell",
     "title": "El hombre sonriente",
     "year": "1994",
@@ -44,7 +44,7 @@
     "img": "/Images/El hombre sonriente.jpg"
   },
   {
-    "id": 5,
+    "id": "price_1Myb2kCYi6cDvzBfVY9Y7xy9",
     "author": "Henning Mankell",
     "title": "La falsa pista",
     "year": "1995",
@@ -55,7 +55,7 @@
     "img": "/Images/La falsa pista.jpg"
   },
   {
-    "id": 6,
+    "id": "price_1Myb3YCYi6cDvzBfbXQpjQVe",
     "author": "Henning Mankell",
     "title": "El perro que corría hacia una estrella",
     "year": "1995",
@@ -66,7 +66,7 @@
     "img": "/Images/El perro que corría hacia una estrella.jpg"
   },
   {
-    "id": 7,
+    "id": "price_1Myb49CYi6cDvzBf3h7pz39q",
     "author": "Henning Mankell",
     "title": "Comedia infantil",
     "year": "1995",
@@ -77,7 +77,7 @@
     "img": "/Images/Comedia infantil.jpg"
   },
   {
-    "id": 8,
+    "id": "price_1Myb4pCYi6cDvzBfZftqpb3b",
     "author": "Henning Mankell",
     "title": "Las sombras crecen al atardecer",
     "year": "1996",
@@ -88,7 +88,7 @@
     "img": "/Images/Las sombras crecen al atardecer.jpg"
   },
   {
-    "id": 9,
+    "id": "price_1Myb5eCYi6cDvzBfmTzCl9lW",
     "author": "Henning Mankell",
     "title": "La quinta mujer",
     "year": "1996",
@@ -99,7 +99,7 @@
     "img": "/Images/La quinta mujer.jpg"
   },
   {
-    "id": 10,
+    "id": "price_1Myb61CYi6cDvzBf0c9c1XkY",
     "author": "Henning Mankell",
     "title": "Pisando los talones",
     "year": "1997",
@@ -110,7 +110,7 @@
     "img": "/Images/Pisando los talones.jpg"
   },
   {
-    "id": 11,
+    "id": "price_1Myb6iCYi6cDvzBfMXt0t9qO",
     "author": "Henning Mankell",
     "title": "El niño que dormía con nieve en la cama",
     "year": "1997",
@@ -121,7 +121,7 @@
     "img": "/Images/El niño que dormía con nieve en la cama.jpg"
   },
   {
-    "id": 12,
+    "id": "price_1Myb7CCYi6cDvzBfLS5lPYms",
     "author": "Henning Mankell",
     "title": "Viaje al fin del mundo",
     "year": "1998",
@@ -132,7 +132,7 @@
     "img": "/Images/Viaje al fin del mundo.jpg"
   },
   {
-    "id": 13,
+    "id": "price_1Myb7uCYi6cDvzBfrA3py6HU",
     "author": "Henning Mankell",
     "title": "Cortafuegos",
     "year": "1998",
@@ -143,7 +143,7 @@
     "img": "/Images/Cortafuegos.jpg"
   },
   {
-    "id": 14,
+    "id": "price_1Myb8TCYi6cDvzBfEH0cxMW9",
     "author": "Henning Mankell",
     "title": "La pirámide",
     "year": "2000",
@@ -154,7 +154,7 @@
     "img": "/Images/La pirámide.jpg"
   },
   {
-    "id": 15,
+    "id": "price_1Myb9ICYi6cDvzBfu2haQ22J",
     "author": "Henning Mankell",
     "title": "El retorno del profesor de baile",
     "year": "2000",
@@ -165,7 +165,7 @@
     "img": "/Images/El retorno del profesor de baile.jpg"
   },
   {
-    "id": 16,
+    "id": "price_1Myb9zCYi6cDvzBfKTFN1FFz",
     "author": "Henning Mankell",
     "title": "Antes de que hiele",
     "year": "2002",
@@ -176,7 +176,7 @@
     "img": "/Images/Antes de que hiele.jpg"
   },
   {
-    "id": 17,
+    "id": "price_1MybBPCYi6cDvzBfZY5ax0oZ",
     "author": "Henning Mankell",
     "title": "El cerebro de Kennedy",
     "year": "2006",
@@ -187,7 +187,7 @@
     "img": "/Images/El cerebro de Kennedy.jpg"
   },
   {
-    "id": 18,
+    "id": "price_1MybBwCYi6cDvzBfwqTGBsja",
     "author": "Henning Mankell",
     "title": "Jugar con fuego",
     "year": "2007",
@@ -198,7 +198,7 @@
     "img": "/Images/Jugar con fuego.jpg"
   },
   {
-    "id": 19,
+    "id": "price_1MybCeCYi6cDvzBflWNHKRZ5",
     "author": "Henning Mankell",
     "title": "El secreto del fuego",
     "year": "2007",
@@ -209,7 +209,7 @@
     "img": "/Images/El secreto del fuego.jpg"
   },
   {
-    "id": 20,
+    "id": "price_1MybD7CYi6cDvzBfydrDet2G",
     "author": "Henning Mankell",
     "title": "Profundidades",
     "year": "2007",
@@ -220,7 +220,7 @@
     "img": "/Images/Profundidades.jpg"
   },
   {
-    "id": 21,
+    "id": "price_1MybItCYi6cDvzBfp47mN85f",
     "author": "Henning Mankell",
     "title": "Zapatos italianos",
     "year": "2007",
@@ -231,7 +231,7 @@
     "img": "/Images/Zapatos italianos.jpg"
   },
   {
-    "id": 22,
+    "id": "price_1MybJcCYi6cDvzBf5gqXnBGe",
     "author": "Henning Mankell",
     "title": "Moriré, pero mi memoria sobrevivirá",
     "year": "2008",
@@ -242,7 +242,7 @@
     "img": "/Images/Moriré, pero mi memoria sobrevivirá.jpg"
   },
   {
-    "id": 23,
+    "id": "price_1MybKBCYi6cDvzBf6IkO5cCA",
     "author": "Henning Mankell",
     "title": "La ira del fuego",
     "year": "2008",
@@ -253,7 +253,7 @@
     "img": "/Images/La ira del fuego.jpg"
   },
   {
-    "id": 24,
+    "id": "price_1MybKcCYi6cDvzBf5IDc8jWS",
     "author": "Henning Mankell",
     "title": "El gato al que le gustaba la lluvia",
     "year": "2008",
@@ -264,7 +264,7 @@
     "img": "/Images/El gato al que le gustaba la lluvia.jpg"
   },
   {
-    "id": 25,
+    "id": "price_1MybL6CYi6cDvzBf5sq1yc3q",
     "author": "Henning Mankell",
     "title": "El chino",
     "year": "2008",
@@ -275,7 +275,7 @@
     "img": "/Images/El chino.jpg"
   },
   {
-    "id": 26,
+    "id": "price_1MybLbCYi6cDvzBfTkWq72hp",
     "author": "Henning Mankell",
     "title": "El hijo del viento",
     "year": "2009",
@@ -286,7 +286,7 @@
     "img": "/Images/El hijo del viento.jpg"
   },
   {
-    "id": 27,
+    "id": "price_1MybM4CYi6cDvzBfyEBBSUaK",
     "author": "Henning Mankell",
     "title": "El hombre inquieto",
     "year": "2009",
@@ -297,7 +297,7 @@
     "img": "/Images/El hombre inquieto.jpg"
   },
   {
-    "id": 28,
+    "id": "price_1MybMcCYi6cDvzBfY1p9ygCs",
     "author": "Henning Mankell",
     "title": "El ojo del leopardo",
     "year": "2010",
@@ -308,7 +308,7 @@
     "img": "/Images/El ojo del leopardo.jpg"
   },
   {
-    "id": 29,
+    "id": "price_1MybN9CYi6cDvzBfStY7ecw1",
     "author": "Henning Mankell",
     "title": "Tea-bag",
     "year": "2010",
@@ -319,7 +319,7 @@
     "img": "/Images/Tea-bag.jpg"
   },
   {
-    "id": 30,
+    "id": "price_1MybNlCYi6cDvzBfWnk6okxb",
     "author": "Henning Mankell",
     "title": "Daisy sisters",
     "year": "2011",
@@ -330,7 +330,7 @@
     "img": "/Images/Daisy sisters.jpg"
   },
   {
-    "id": 31,
+    "id": "price_1MybODCYi6cDvzBfw5XjZZiR",
     "author": "Henning Mankell",
     "title": "Un ángel impuro",
     "year": "2012",
@@ -341,7 +341,7 @@
     "img": "/Images/Un ángel impuro.jpg"
   },
   {
-    "id": 32,
+    "id": "price_1MybOtCYi6cDvzBf1V3oBpaV",
     "author": "Henning Mankell",
     "title": "Huesos en el jardín",
     "year": "2013",
@@ -352,7 +352,7 @@
     "img": "/Images/Huesos en el jardin.jpg"
   },
   {
-    "id": 33,
+    "id": "price_1MybPJCYi6cDvzBfnVsXctC9",
     "author": "Henning Mankell",
     "title": "Arenas movedizas",
     "year": "2015",
@@ -363,7 +363,7 @@
     "img": "/Images/Arenas movedizas.jpg"
   },
   {
-    "id": 34,
+    "id": "price_1MybPnCYi6cDvzBfm0zZJExs",
     "author": "Henning Mankell",
     "title": "Botas de lluvia suecas",
     "year": "2016",
@@ -374,7 +374,7 @@
     "img": "/Images/Botas de lluvia suecas.jpg"
   },
   {
-    "id": 35,
+    "id": "price_1MybQMCYi6cDvzBfvonygtT1",
     "author": "Henning Mankell",
     "title": "El hombre de la dinamita",
     "year": "2018",
