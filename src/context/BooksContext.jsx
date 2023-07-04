@@ -73,8 +73,6 @@ export const BooksProvider = ({ children }) => {
   };
 
 
-    
-  console.log(books)
   return (
     <BooksContext.Provider
       value={{

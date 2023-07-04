@@ -41,18 +41,27 @@ const Home = () => {
       </div>
 
       <div className={styles.gallery}>
-        <img src="/Images/Botas de lluvia suecas.jpg" alt="" />
-        <img src="/Images/El chino.jpg" alt="" />
-        <img src="/Images/El hombre de la dinamita.jpg" alt="" />
+        <img
+          src="/Images/Botas de lluvia suecas.jpg"
+          alt="Botas de lluvia suecas"
+        />
+        <img src="/Images/El chino.jpg" alt="El chino" />
+        <img
+          src="/Images/El hombre de la dinamita.jpg"
+          alt="El hombre de la dinamita"
+        />
         <img
           src="/Images/El perro que corría hacia una estrella.jpg"
-          alt=""
+          alt="El perro que corría hacia una estrella"
         />
-        <img src="/Images/Zapatos italianos.jpg" alt="" />
-        <img src="/Images/Arenas movedizas.jpg" alt="" />
-        <img src="/Images/Asesinos sin rostro.jpg" alt="" />
-        <img src="/Images/El secreto del fuego.jpg" alt="" />
-        <img src="/Images/La leona blanca.jpg" alt="" />
+        <img src="/Images/Zapatos italianos.jpg" alt="Zapatos italianos" />
+        <img src="/Images/Arenas movedizas.jpg" alt="Arenas movedizas" />
+        <img src="/Images/Asesinos sin rostro.jpg" alt="Asesinos sin rostro" />
+        <img
+          src="/Images/El secreto del fuego.jpg"
+          alt="El secreto del fuego"
+        />
+        <img src="/Images/La leona blanca.jpg" alt="La leona blanca" />
       </div>
     </div>
   );

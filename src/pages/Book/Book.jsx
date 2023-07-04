@@ -5,10 +5,10 @@ import { useBooks } from "../../context/BooksContext";
 import styles from './Book.module.css'
 
 const Book = () => {
-  const { books, toggleCartItem, toggleWishListItem } = useBooks();
+  const { books } = useBooks();
   const { id  } = useParams();
 
-  const bookId = parseInt(id);
+  const bookId = id;
   
   const book = books.find((item) => item.id === bookId)
  

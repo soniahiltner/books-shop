@@ -23,14 +23,6 @@ nav {
 nav a {
   text-decoration: none;
 }
-/* navbar nav a.active {
-  color: red;
-  text-decoration: wavy;
-} */
-
-/* nav a .active {
-  color: red;
-} */
 
 .cartLink {
   width: 20%;

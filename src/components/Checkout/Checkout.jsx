@@ -5,7 +5,7 @@ import styles from './Checkout.module.css';
 
 function Checkout() {
 
-  const { cart, removeAllFromCart } = useBooks();
+  const { cart } = useBooks();
   let items = cart.map((item) => {
     const product = {
       price: item.id,
