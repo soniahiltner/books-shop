@@ -8,7 +8,7 @@ import styles from "./ShoppingCartItems.module.css";
 
 const ShoppingCartItems = () => {
   const { cart } = useBooks();
-  console.log(cart)
+  
   return (
     <div>
       {cart.length > 0 && (

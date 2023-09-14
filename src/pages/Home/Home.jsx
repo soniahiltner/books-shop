@@ -18,10 +18,7 @@ const Home = () => {
             Nacido en Estocolmo(Suecia) en 1948, Henning Mankell ha cultivado
             diversos géneros dentro de una variada narrativa que contempla obras
             de teatro y narraciones dirigidas a un público infantil y juvenil,
-            entre las que cabe citar{" "}
-            <em>El perro que corría hacia una estrella</em>,{" "}
-            <em>Las sombras crecen al atardecer</em> y{" "}
-            <em>El niño que dormía con nieve en la cama.</em>
+            entre las que cabe citar <em>El perro que corría hacia una estrella</em>, <em>Las sombras crecen al atardecer</em> y <em>El niño que dormía con nieve en la cama.</em>
           </p>
           <br />
           <p>
@@ -29,13 +26,13 @@ const Home = () => {
             panorama literario europeo, su consagración definitiva le llegó de
             la mano de la serie de novelas policíacas protagonizadas por el
             detective Kurt Wallander. Una exitosa creación literaria que incluye
-            a Asesinos sin rostro - premio a la mejor historia policíaca de 1991
+            a <em>Asesinos sin rostro</em> - premio a la mejor historia policíaca de 1991
             otorgado por la Academia Sueca de Novela Negra, además de conquistar
-            el prestigioso premio Llave de Cristal-, Los perros de Riga(1992),
-            La leona blanca(1993), El hombre sonriente(1994), La falsa
-            pista(1995)-Premio Macallan Gold Dagger a la mejor Novela Negra
-            publicada en Gran Bretaña en el año 2000-, La quinta mujer(1996),
-            Pisando los talones(1997) y Cortafuegos(1998).
+            el prestigioso premio Llave de Cristal-, <em>Los perros de Riga</em>(1992),
+            <em>La leona blanca</em>(1993), <em>El hombre sonriente</em>(1994), <em>La falsa
+            pista</em>(1995)-Premio Macallan Gold Dagger a la mejor Novela Negra
+            publicada en Gran Bretaña en el año 2000-, <em>La quinta mujer</em>(1996),
+            <em>Pisando los talones</em>(1997) y <em>Cortafuegos</em>(1998).
           </p>
         </div>
       </div>

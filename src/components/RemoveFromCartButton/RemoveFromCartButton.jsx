@@ -5,8 +5,6 @@ const RemoveFromCartButton = ({ item }) => {
 
   const { cart, removeFromCart } = useBooks();
 
-  let productToDelete = cart.find(product => product.id === item.id);
-
   return <button
     className={styles.removeFromCart}
     onClick={() => removeFromCart(item)}

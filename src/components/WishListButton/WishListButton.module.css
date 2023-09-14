@@ -1,5 +1,6 @@
 .addToWishList,
-.addToCart {
+.addToCart,
+.remove {
   padding: 0.3rem;
   border-radius: 0.4rem;
   background-color: rgba(128, 0, 0, 0.563);
@@ -9,10 +10,5 @@
 }
 
 .remove {
-  padding: 0.3rem;
-  border-radius: 0.4rem;
   background-color: rgba(192, 44, 44, 0.973);
-  color: white;
-  margin-bottom: 1rem;
-  cursor: pointer;
 }
