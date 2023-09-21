@@ -16,7 +16,7 @@ export const BooksProvider = ({ children }) => {
 
 
   useEffect(() => {
-    fetch("src/data/data.json")
+    fetch("/data/data.json")
       .then((res) => res.json())
       .then(data => setBooks(data))
   }, []);
